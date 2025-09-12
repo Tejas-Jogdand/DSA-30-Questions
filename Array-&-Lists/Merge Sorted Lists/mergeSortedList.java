@@ -29,7 +29,7 @@ public class mergeSortedList {
         return dummy.next; // skip the dummy head
     }
 
-    // 🔹 Helper to build linked list from array
+    // Helper to build linked list from array
     public static ListNode buildList(int[] arr) {
         ListNode dummy = new ListNode(0);
         ListNode curr = dummy;
@@ -40,7 +40,7 @@ public class mergeSortedList {
         return dummy.next;
     }
 
-    // 🔹 Helper to print linked list
+    // Helper to print linked list
     public static void printList(ListNode head) {
         while (head != null) {
             System.out.print(head.val);
