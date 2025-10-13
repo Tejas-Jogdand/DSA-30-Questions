@@ -1,4 +1,4 @@
-public class SudokuSolver {
+public class sudokusolver {
 
     public static void solveSudoku(char[][] board) {
         solve(board);
